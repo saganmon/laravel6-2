@@ -81,7 +81,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    @guest
+                        Please sign in
+                    @endguest
                 </div>
 
                 <div class="links">
